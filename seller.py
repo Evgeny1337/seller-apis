@@ -266,7 +266,7 @@ async def upload_prices(watch_remnants, client_id, seller_token):
         seller_token (str): Токен продавца для аутентификации.
 
     Returns:
-        list: Список цен, который был загружен.
+        prices(list): Список цен, который был загружен.
 
     Raises:
         Exception: Если функции get_offer_ids, create_prices
